@@ -103,6 +103,7 @@ img {
 
 .site-nav .link.current {
   color: var(--primary-accent-color);
+  position: relative;
 }
 
 .studio::after {
@@ -113,8 +114,7 @@ img {
   position: absolute;
   display: block;
   top: 76px;
-  display: flex;
-  justify-content: start;
+
   border-radius: 2px;
 }
 
